@@ -21,6 +21,7 @@ const GET_MODULE_AND_PARENT_TRACK = gql`
         id
         title
         length
+        durationInSeconds: Int
       }
     }
   }
